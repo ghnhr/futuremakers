@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Chart.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -224,6 +224,19 @@
             padding-left: 0.25rem;
             color: var(--text-secondary);
         }
+        .chart-container-sm {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+        }
+        @media (min-width: 768px) {
+            .chart-container-sm {
+                height: 350px;
+            }
+        }
         
         @media (max-width: 768px) {
             .section-container { padding: 4rem 1rem; }
@@ -252,6 +265,7 @@
                         <a href="#chi-phi-roi" class="nav-link">Đầu tư và ROI</a>
                         <a href="#ke-hoach-trien-khai" class="nav-link">Kế hoạch thực hiện</a>
                         <a href="#chien-luoc-truyen-thong" class="nav-link">Truyền thông</a>
+                        <a href="#ket-qua-12-thang" class="nav-link">Kết quả 12 tháng</a>
                     </div>
                 </nav>
                 <div class="-mr-2 flex md:hidden">
@@ -273,6 +287,7 @@
                 <a href="#chi-phi-roi" class="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium">Đầu tư</a>
                 <a href="#ke-hoach-trien-khai" class="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium">Kế hoạch</a>
                 <a href="#chien-luoc-truyen-thong" class="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium">Truyền thông</a>
+                <a href="#ket-qua-12-thang" class="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium">Kết quả 12 tháng</a>
             </div>
         </div>
     </header>
@@ -1013,6 +1028,142 @@
             </div>
         </section>
 
+        <!-- SECTION 7: 12-MONTH RESULTS -->
+        <section id="ket-qua-12-thang" class="section-container bg-light">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-red-600">
+                    VƯỢT KỲ VỌNG
+                </h1>
+                <h2 class="mt-2 text-2xl md:text-3xl font-bold text-slate-800">Báo Cáo Hiệu Quả 12 Tháng Dự Án GHN Future Makers</h2>
+                <p class="mt-4 max-w-3xl mx-auto text-lg text-slate-600">
+                    Dữ liệu tổng hợp từ Q4/2025 - Q4/2026, chứng minh hiệu quả vượt trội của chương trình trong việc xây dựng đội ngũ lãnh đạo kế cận và tạo ra giá trị thực tiễn cho tổ chức.
+                </p>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="subsection-title text-center">Dashboard Chỉ Số Tổng Quan</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                        <p class="text-base font-medium text-slate-500">Tỷ lệ Giữ chân</p>
+                        <p class="text-5xl font-bold text-blue-600 my-2">94.4%</p>
+                        <p class="text-sm text-slate-500">Mục tiêu: >90%</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                        <p class="text-base font-medium text-slate-500">Điểm Hiệu suất</p>
+                        <p class="text-5xl font-bold text-blue-600 my-2">4.3<span class="text-3xl text-slate-400">/5</span></p>
+                        <p class="text-sm text-slate-500">Mục tiêu: >4.0</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                        <p class="text-base font-medium text-slate-500">Số Lượng Tuyển</p>
+                        <p class="text-5xl font-bold text-blue-600 my-2">18</p>
+                        <p class="text-sm text-slate-500">Mục tiêu: 15-20</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                        <p class="text-base font-medium text-slate-500">Sẵn sàng Kế nhiệm</p>
+                        <p class="text-5xl font-bold text-blue-600 my-2">13</p>
+                        <p class="text-sm text-slate-500">Mục tiêu: 10-12</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="subsection-title text-center">Phễu Thành Công: Từ Thu Hút Đến Tuyển Chọn</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg text-center mb-4">Hiệu quả Thu hút & Sàng lọc</h4>
+                        <div class="space-y-4 text-center">
+                            <div class="bg-slate-100 p-4 rounded-lg">
+                                <p class="text-3xl font-bold text-blue-600">2,850+</p>
+                                <p class="text-slate-600">Hồ sơ ứng tuyển</p>
+                            </div>
+                            <p class="text-2xl font-bold text-slate-500">↓</p>
+                            <div class="bg-slate-100 p-4 rounded-lg">
+                                <p class="text-3xl font-bold text-blue-600">158:1</p>
+                                <p class="text-slate-600">Tỷ lệ chọi</p>
+                            </div>
+                            <p class="text-2xl font-bold text-slate-500">↓</p>
+                            <div class="bg-gradient-to-r from-blue-500 to-red-500 text-white p-4 rounded-lg">
+                                <p class="text-3xl font-bold">18</p>
+                                <p>Future Makers xuất sắc được lựa chọn</p>
+                            </div>
+                        </div>
+                         <p class="text-center mt-4 text-sm text-slate-500">Trong đó, <strong>65%</strong> đến từ các trường Đại học Top và đối tác MOU.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg text-center mb-4">Hiệu quả Chi phí Tuyển dụng</h4>
+                        <div class="chart-container-sm">
+                            <canvas id="costPerHireChart"></canvas>
+                        </div>
+                        <p class="text-center mt-4 text-sm text-slate-500">Chi phí tuyển dụng cho một Future Maker thấp hơn <strong>15%</strong> so với một quản lý tuyển ngoài, khẳng định hiệu quả đầu tư dài hạn.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="subsection-title text-center">"Lò luyện" Lãnh đạo: Phát triển & Tác động</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg text-center mb-4">Tăng trưởng Năng lực Vượt bậc</h4>
+                        <div class="chart-container-sm">
+                            <canvas id="competencyChart"></canvas>
+                        </div>
+                        <p class="text-center mt-4 text-sm text-slate-500">Năng lực lõi tăng trung bình <strong>45%</strong> sau 12 tháng, đặc biệt là các kỹ năng then chốt cho vai trò quản lý.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg text-center mb-4">Tác động Thực tế vào Kinh doanh</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-center bg-slate-100 p-4 rounded-lg">
+                                <p class="text-4xl font-bold text-red-500 mr-4">5</p>
+                                <p class="text-slate-600">Sáng kiến cải tiến được ghi nhận và áp dụng thử nghiệm.</p>
+                            </div>
+                            <div class="flex items-center bg-slate-100 p-4 rounded-lg">
+                                <p class="text-4xl font-bold text-red-500 mr-4">~2%</p>
+                                <p class="text-slate-600">Chi phí vận hành được tối ưu hóa tại các đơn vị luân chuyển.</p>
+                            </div>
+                            <div class="flex items-center bg-slate-100 p-4 rounded-lg">
+                                <p class="text-4xl font-bold text-red-500 mr-4">3</p>
+                                <p class="text-slate-600">Dự án có tác động trực tiếp đến cải thiện trải nghiệm khách hàng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg mt-8">
+                    <h4 class="font-bold text-lg mb-2 text-slate-800">Case Study Nổi bật: Dấu ấn của Future Maker</h4>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <p class="font-semibold text-slate-700">Nguyễn Văn A - Tối ưu hóa Kho Trung tâm X</p>
+                        <p class="text-slate-600 mt-1"><strong>Thách thức:</strong> Giảm thời gian xử lý hàng hóa tồn đọng.</p>
+                        <p class="text-slate-600"><strong>Giải pháp:</strong> Phân tích dữ liệu và đề xuất thay đổi layout, áp dụng thuật toán chia chọn mới.</p>
+                        <p class="font-bold text-slate-800 mt-2">Kết quả: <span class="text-red-500">Giảm 15%</span> thời gian xử lý & <span class="text-red-500">Tăng 10%</span> công suất kho.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="subsection-title text-center">Hiệu quả Đầu tư & Giá trị Tương lai</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <h4 class="font-bold text-lg text-center mb-4">ROI Sơ bộ sau 12 tháng</h4>
+                         <div class="space-y-4">
+                            <div class="text-center">
+                                <p class="text-4xl font-bold text-blue-600">~500 Triệu</p>
+                                <p class="text-slate-600">Tiết kiệm chi phí tuyển dụng cho 5 vị trí Giám sát/Trưởng ca.</p>
+                            </div>
+                            <div class="text-center mt-4">
+                                <p class="text-4xl font-bold text-blue-600">~1.2 Tỷ</p>
+                                <p class="text-slate-600">Giá trị ước tính/năm từ các sáng kiến cải tiến.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                         <h4 class="font-bold text-lg text-center mb-4">Nguồn lực Kế cận cho Tương lai</h4>
+                        <div class="chart-container-sm">
+                            <canvas id="futureRolesChart"></canvas>
+                        </div>
+                        <p class="text-center mt-4 text-sm text-slate-500">Dự kiến <strong>70-80%</strong> nhu cầu quản lý cấp trung trong năm 2027 sẽ được đáp ứng từ chương trình.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer -->
     <footer style="background-color: var(--ghn-charcoal);" class="text-white">
@@ -1033,10 +1184,20 @@
                 });
             }
 
+            const tooltipTitleCallback = function(tooltipItems) {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                } else {
+                    return label;
+                }
+            };
+
             // Script for University Supply Chart
             const ctx = document.getElementById('universityChart');
             if (ctx) {
-                const universityChart = new Chart(ctx.getContext('2d'), {
+                new Chart(ctx.getContext('2d'), {
                     type: 'bar',
                     data: {
                         labels: ['UEH', 'FTU2', 'UEF', 'TDTU', 'ĐH Bách Khoa', 'UEL', 'HSU', 'ĐH Quốc Tế'],
@@ -1044,8 +1205,8 @@
                             label: 'Số SV Khá/Giỏi tiềm năng (ước tính/năm)',
                             data: [1150, 827, 810, 652, 712, 535, 312, 291],
                             backgroundColor: [
-                                'rgba(0, 123, 255, 0.7)', // New GHN Blue
-                                'rgba(30, 41, 59, 0.7)',  // New GHN Charcoal
+                                'rgba(0, 123, 255, 0.7)',
+                                'rgba(30, 41, 59, 0.7)',
                                 'rgba(0, 123, 255, 0.5)',
                                 'rgba(30, 41, 59, 0.5)',
                                 'rgba(0, 123, 255, 0.7)',
@@ -1069,22 +1230,92 @@
                     options: {
                         responsive: true,
                         plugins: {
-                            legend: {
-                                position: 'top',
-                            },
-                            title: {
-                                display: true,
-                                text: 'Nguồn cung Nhân lực Tiềm năng từ các Trường Đại học Trọng điểm'
-                            }
+                            legend: { position: 'top' },
+                            tooltip: { callbacks: { title: tooltipTitleCallback } }
                         },
-                        scales: {
-                            y: {
-                                beginAtZero: true,
-                                title: {
-                                    display: true,
-                                    text: 'Số lượng sinh viên'
-                                }
-                            }
+                        scales: { y: { beginAtZero: true, title: { display: true, text: 'Số lượng sinh viên' } } }
+                    }
+                });
+            }
+
+            // Chart 1: Cost Per Hire
+            const costPerHireCtx = document.getElementById('costPerHireChart');
+            if (costPerHireCtx) {
+                new Chart(costPerHireCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Quản lý (Tuyển ngoài)', 'Future Maker'],
+                        datasets: [{
+                            label: 'Chi phí Tuyển dụng (Triệu VNĐ)',
+                            data: [203.5, 173],
+                            backgroundColor: ['#9CA3AF', 'var(--ghn-blue)'],
+                            borderColor: ['#9CA3AF', 'var(--ghn-blue)'],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        indexAxis: 'y',
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: { callbacks: { title: tooltipTitleCallback } }
+                        },
+                        scales: { x: { beginAtZero: true, title: { display: true, text: 'Chi phí (Triệu VNĐ)' } } }
+                    }
+                });
+            }
+
+            // Chart 2: Competency Growth
+            const competencyCtx = document.getElementById('competencyChart');
+            if (competencyCtx) {
+                new Chart(competencyCtx, {
+                    type: 'radar',
+                    data: {
+                        labels: ['Giải quyết Vấn đề', 'Phân tích Dữ liệu', 'Lãnh đạo Đội nhóm', 'Tư duy Chiến lược', 'Giao tiếp'],
+                        datasets: [{
+                            label: 'Năng lực Đầu vào',
+                            data: [60, 55, 50, 45, 65],
+                            borderColor: '#9CA3AF',
+                            backgroundColor: 'rgba(156, 163, 175, 0.2)',
+                        }, {
+                            label: 'Năng lực sau 12 tháng',
+                            data: [85, 85, 75, 70, 90],
+                            borderColor: 'var(--ghn-blue)',
+                            backgroundColor: 'rgba(0, 123, 255, 0.2)',
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            tooltip: { callbacks: { title: tooltipTitleCallback } }
+                        },
+                        scales: { r: { beginAtZero: true, max: 100, pointLabels: { font: { size: 12 } } } }
+                    }
+                });
+            }
+            
+            // Chart 3: Future Roles Filled
+            const futureRolesCtx = document.getElementById('futureRolesChart');
+            if(futureRolesCtx) {
+                new Chart(futureRolesCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Nguồn từ Future Makers', 'Nguồn khác'],
+                        datasets: [{
+                            data: [75, 25],
+                            backgroundColor: ['var(--ghn-blue)', '#E5E7EB'],
+                            hoverOffset: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        cutout: '70%',
+                        plugins: {
+                            legend: { position: 'bottom' },
+                            tooltip: { callbacks: { title: tooltipTitleCallback } }
                         }
                     }
                 });
